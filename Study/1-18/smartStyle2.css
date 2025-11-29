@@ -1,34 +1,65 @@
 /*ウィンドウ幅が最大479pxまでの場合に適用(スマホ用)*/
 @media screen and (max-width: 479px) {
     .wrapper {
-        width: 400px;
+        width: 300px;
     }
     .left {
+        float: none;
+        width: 100px;
+    }
+
+    .center-m {
+        float: none;
+        width: 125px;
+    }
+    .center-p {
+        float: none;
+        width: 125px;
+    }
+    .center-y {
+         float: none;
         width: 200px;
-        height: 500px;
-    }
-    .left-upper {
-        width: 90px;
-        height: 60px;
-    }
-    .left-lower {
-        width: 90px;
-        height: 320px;
-    }
-    .center {
-        float: none; /* 要素の浮動化の解除 */
-        width: 200px;
+        
     }
     .right {
-        width: 200px;
+        float: none;
+        width: 75px;
     }
-    .right-inner {
-        width: 110px;
+    .footer {
+        float: none;
+        width: 300px;
     }
-    .right-inner-text {
-        font-size: 5px;
-        padding: 10px;
-        background-color: orange;
-        border: 5px solid red;
+
+}
+/*ウィンドウ幅が最大479pxまでの場合に適用(スマホ用)*/
+@media screen and (max-width: 479px) {
+    .wrapper {
+        width: 150px;
     }
+    .left {
+        float: none;
+        width: 150px;
+    }
+
+    .center-m {
+        float: none;
+        width: 150px;
+    }
+    .center-p {
+        float: none;
+        width: 150px;
+    }
+    .center-y {
+         float: none;
+        width: 150px;
+    }
+    .right {
+        float: none;
+        width: 150px;
+    }
+    .footer {
+        float: none;
+        width: 150px;
+    }
+
 }
