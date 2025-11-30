@@ -1,31 +1,38 @@
-/*ウィンドウ幅が最大479pxまでの場合に適用(スマホ用)*/
-@media screen and (max-width: 479px) {
+/*ウィンドウ幅が最大767pxまでの場合に適用(スマホ用)*/
+@media screen and (max-width: 767px) {
     .wrapper {
         width: 300px;
     }
     .left {
         float: none;
+        width: 100%;
         width: 100px;
     }
     .center-m {
         float: none;
+        width: 100%;
         width: 125px;
     }
     .center-p {
         float: none;
+        width: 100%;
         width: 125px;
-    }
-    .center-y {
-         float: none;
-        width: 200px;
-        
     }
     .right {
         float: none;
+        width: 100%;
         width: 75px;
     }
+    .center-y {
+         float: left;
+         width: 100%;
+        width: 200px;
+        
+    }
+    
     .footer {
-        float: none;
+        float: left;
+        width: 100%;
         width: 300px;
     }
 
@@ -34,30 +41,42 @@
 @media screen and (max-width: 479px) {
     .wrapper {
         width: 150px;
+        
     }
     .left {
         float: none;
+        width: 100%;
         width: 150px;
+        height: 100px;
     }
-
-    .center-m {
-        float: none;
+    .right {
+        float: left;
+        width: 100%;
         width: 150px;
+        height: 100px;
+    }
+    .center-m {
+        
+        width: 150px;
+        height: 50px;
     }
     .center-p {
         float: none;
+        width: 100%;
         width: 150px;
+        height: 100px;
     }
+
+
     .center-y {
-         float: none;
+         float: left;
+         width: 100%;
         width: 150px;
     }
-    .right {
-        float: none;
-        width: 150px;
-    }
+    
     .footer {
-        float: none;
+        float: left;
+        width: 100%;
         width: 150px;
     }
 

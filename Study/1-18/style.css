@@ -21,11 +21,7 @@ body {
 }
 /** end of header **/
 
-/** left-center **/
-.left-center {
-    float: left;
-    height: 100%;
-}
+
 /** left **/
 .left {
     float: left;
@@ -35,9 +31,10 @@ body {
 }
 
 /** end of left **/
+
+
 .center-upper{
     float: left;
-    
     width: 150px;
     height: 50px;
     background-color:#c2ffc8;
@@ -54,6 +51,7 @@ body {
     height: 150px;
     background-color: #f89c9c;
 }
+
 .center-y {
     float: right;
     width: 250px;
