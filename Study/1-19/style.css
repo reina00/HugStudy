@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+.wrapper {
+  width: 400px;
+  margin: auto;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header {
+  padding: 20px;
+  background: #ffce7a;
+}
+header b {
+  background: #fff;
+  padding: 10px;
+  float: right;
+}
+header a {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px 0 0;
+  background: #c2ffc8;
+  float: left;
+}
+header a:last-child {
+  margin-right: 0;
+}
+aside {
+  width: 150px;
+  height: 250px;
+  float: left;
+  background: #9dddf4;
+}
+main {
+  float: right;
+
+  background: #c2ffc8;
+  padding: 40px 60px 40px 40px;
+}
+main div {
+  width: 140px;
+  height: 40px;
+  margin-bottom: 10px;
+  border: 5px solid #fff;
+  background: #ffc2c5;
+}
+main div:last-child {
+  margin-bottom: 0;
+}
+
+footer {
+  height: 100px;
+  background: #bea5ff;
+}
