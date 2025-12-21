@@ -4,38 +4,36 @@
         width: 300px;
     }
     .left {
-        float: none;
-        width: 100%;
+        
+        
         width: 100px;
     }
-    .center-m {
-        float: none;
-        width: 100%;
+    .center-upper {
+       
+       
         width: 125px;
     }
-    .center-p {
-        float: none;
-        width: 100%;
+    .center-lower  {
+        
+        
         width: 125px;
     }
     .right {
-        float: none;
-        width: 100%;
+        
+        
         width: 75px;
     }
     .center-y {
-         float: left;
-         width: 100%;
+         
+         
         width: 200px;
         
     }
-    
     .footer {
-        float: left;
-        width: 100%;
         width: 300px;
+        height: 100px;
     }
-
+    
 }
 /*ウィンドウ幅が最大479pxまでの場合に適用(スマホ用)*/
 @media screen and (max-width: 479px) {
@@ -46,38 +44,36 @@
     .left {
         float: none;
         width: 100%;
-        width: 150px;
         height: 100px;
+
     }
     .right {
-        float: left;
-        width: 100%;
-        width: 150px;
+        float: none;
         height: 100px;
+        width: 100%;
     }
-    .center-m {
-        
-        width: 150px;
-        height: 50px;
-    }
-    .center-p {
+    .center-upper {
         float: none;
         width: 100%;
-        width: 150px;
-        height: 100px;
+    
+    }
+    .center-lower  {
+        float: none;
+        width: 100%;
+
     }
 
 
     .center-y {
-         float: left;
+         float: none;
          width: 100%;
-        width: 150px;
+
     }
     
     .footer {
-        float: left;
+        float: none;
         width: 100%;
-        width: 150px;
+
     }
 
 }
