@@ -13,22 +13,22 @@ header {
   padding: 20px;
   background: #ffce7a;
 }
-header b {
+header div {
   background: #fff;
   padding: 10px;
   float: right;
 }
-header a {
+header p {
   width: 40px;
   height: 40px;
   margin: 0 10px 0 0;
   background: #c2ffc8;
   float: left;
 }
-header a:last-child {
+header p:last-child {
   margin-right: 0;
 }
-aside {
+.left {
   width: 150px;
   height: 250px;
   float: left;
