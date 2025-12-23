@@ -21,6 +21,7 @@ public class Task2_9 {
   private static final String CONST_MSG_ERROR_PASS = "パスワードに誤りがあります。";
   private static final String CONST_MSG_ERROR_INPUT = "入力情報に誤りがあります。";
 
+  
   // 補足:
   // 定数は①〜④で使い回すために定義しておきます。
   // 定数とは、プログラム内で一度値が代入されると、その値を変更できない変数です。
