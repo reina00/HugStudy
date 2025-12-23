@@ -39,8 +39,8 @@ public class Task2_9 {
     // 以下の変数「name」「pass」を使用して、①〜④の条件を満たす処理を記述して下さい。
     // nameとpassはログイン画面からの入力値だと想定してみましょう。
 
-    String name = "alic";
-    String pass = "alice13";
+    String name = "alice";
+    String pass = "alice123";
 
     // ① 「name」の値が「USER_NAME」と等しく、「 pass 」の値が「USER_PASSWORD」と等しい場合。
     // 定数を使用して「 ログイン成功です。 」と出力して下さい。
