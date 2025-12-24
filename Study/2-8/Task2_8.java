@@ -20,19 +20,18 @@ public class Task2_8 {
 
 
     // ① 5 と 16 を加算した値を代入する、変数 plus を作成して下さい。
-    int plus;   
-     plus  = 5 ;
-     plus += 16;
+    int a = 5;   
+    int b =16;
+    int  plus = a+b;
 
 
 
 
 
     // ② 27 から 7 を減算した値を代入する、変数 minus を作成して下さい。
-        int minus ;
-        minus = 27 ;
-        minus -=7;
-
+    int c = 27;   
+    int d =7;
+    int  minus = c-d;
 
 
     // ③下記の処理について、何をしているのかコメントを記入して下さい。
@@ -43,9 +42,9 @@ public class Task2_8 {
 
 
     // ④ 20 を 6 で割った余りを代入する、変数 remi を作成して下さい。
-int remi;
-remi = 20 ;
-remi %= 6;
+    int e = 20;   
+    int f = 6;
+    int  remi = e%f;
 
 
     // ⑤下記の処理について、何をしているのかコメントを記入して下さい。
