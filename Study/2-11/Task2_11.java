@@ -51,7 +51,7 @@ System.out.println("余り:" +mod);
     */
     int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     int add = sumOddNumbers(numbers);
-        System.out.println("奇数の合計: " + sumOddNumbers(numbers));
+        System.out.println("奇数の合計: " + add);
     }
 
     public static int sumOddNumbers(int[] numbers) {
