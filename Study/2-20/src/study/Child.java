@@ -4,7 +4,7 @@ package study;
  
 
 
-class Child extends Parent{
+public class Child extends Parent{
 
     //②親クラスのnameメソッドを呼び出すcallNameメソッドを作成して下さい。
     public void callName() {
