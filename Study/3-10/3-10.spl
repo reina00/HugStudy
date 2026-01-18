@@ -13,7 +13,10 @@ INTERSECT
 SELECT * FROM Order_Header WHERE Total < 10000;
 
 -- 4. 「関東」エリアの全店舗情報を抽出して下さい。
-SELECT * FROM shop WHERE areacode = '04';
+SELECT *
+FROM Shop 
+JOIN Area  ON shop.areacode = area.areacode
+WHERE area.areaname = '関東';
 
 -- 5. 在庫(Stocksテーブル)内の各商品の合計数量を抽出して下さい。
 SELECT GoodsCode, SUM(Quantity) FROM Stocks 
