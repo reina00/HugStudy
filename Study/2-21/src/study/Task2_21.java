@@ -43,7 +43,7 @@ public class Task2_21 {
 
         // ③ オレンジの値段を200円に上書きしてください。
 
-        fruitsHashMap.replace(orange, 200);
+        fruitsHashMap.replace(fruitsArrayList.get(0), 200);
 
         
         // ④ レッスン内容を参考に拡張for文を使い、
